@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello Build From Main Branch'
+                echo 'Hello Build From Development Branch'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Hello Deploy From Main Branch'
+                echo 'Hello Deploy From Development Branch'
             }
         }
         stage('Test') {
             steps {
-                echo 'Hello Test From Main Branch'
+                echo 'Hello Test From Development Branch'
             }
         }
         stage('Release') {
             steps {
-                echo 'Hello Release From Main Branch'
+                echo 'Hello Release From Development Branch'
             }
         }
     }
